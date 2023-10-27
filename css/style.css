@@ -23,21 +23,14 @@ body {
   align-items: center;
   border: 1px solid blue;
 }
-#ui {
+#stats {
+  display: flex;
+  gap: 1rem;
 }
-#screen {
-  border: 1px solid green;
-  width: 20em;
-  height: 120px;
-}
+
 #controls {
   display: flex;
-  justify-content: space-evenly;
-}
-#console {
-}
-.flex-evenly {
-    
+  gap: 1rem;
 }
 
 /* headings */
@@ -45,3 +38,6 @@ body {
 /* buttons */
 
 /* images */
+.rip {
+    transform: scaleY(-1);
+}
